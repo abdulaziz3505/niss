@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 500vh;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    background: url("./2023-nissan-leaf-and-ariya-d-v3.jpg") no-repeat center/cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+}
+.home__modal{
+    position: absolute;
+    z-index: 4;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #f1f1f1;
+    font-size: 10vw;
+    transition: .3s;
+    overflow: hidden;
+}
+.home__modal h6{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.home__modal h6 span{
+    margin-left: 80px;
+}
+.home__modal h6 span button{
+    padding: 12px 30px;
+    background: black;
+    color: #fff;
+    transition: .25s;
+}
+.home__modal h6 span button:hover{
+    background: #979090;
+    border: none;
+    cursor: pointer;
+}
+.home__modal h6 span i{
+    margin-left: 15px;
+    font-size: 40px;
+    transform: translateY(10px);
+    cursor: pointer;
+}
+.home__modal .pastiga{
+    width: 90%;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 30px;
+}
+.home__modal .coll{
+    font-size: 30px;
+    margin-left: 50px;
+    line-height: 60px;
+    list-style: none;
+    margin-top: 100px;
+}
+.home__modal .moshin{
+    width: 65%;
+    height: 600px;
+    margin-left: 480px;
+    transform: translateY(-350px);
+    display: flex;
+    flex-wrap: wrap;
+}
+.moshin .cars{
+    width: 280px;
+    height: 250px;
+}
+.moshin .cars:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+}
+.home__show{
+    height: 800px;
+}
+.nis{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    transform: translateY(-5px);
+    background: url("./nissan-logo-white_v4.svg") no-repeat center/contain;
+    cursor: pointer;
+}
+.container{
+    width: 690px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+
+.item{
+    margin-left: 20px;
+    list-style: none;
+    color: #fff;
+    transform: translateY(-95px);
+    cursor: pointer;
+}
+.item:hover{
+    border-bottom: 4px solid #fff;
+}
+.btn{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    margin-left: 81%;
+    margin-right: 90px;
+    transform: translateY(-172px);
+}
+.btn:hover{
+    background: crimson;
+    cursor: pointer;
+    border: none;
+}
+.icons{
+    width: 40px;
+    height: 80px;
+    transform: translateY(-200px);
+    display: flex;
+    margin-left: 93%;
+    cursor: pointer;
+    color: #fff;
+}
+.icons .lange h4{
+    transform: translateY(-2px);
+    margin-left: 5px;
+}
+.icon i{
+    margin-left: 10px;
+}
+
+.unner h1,
+p{
+    color: #fff;
+    margin-left: 10%;
+    padding-top: 80px;
+}
+.unner p{
+    transform: translateY(-79px);
+}
+.unner button{
+    padding: 15px 3px;
+    background: #c3002f;
+    color: #fff;
+    border: none;
+    margin-left: 10%;
+    transform: translateY(-70px);
+
+}
+.unner button:hover{
+    cursor: pointer;
+    background: crimson;
+}
+.unner img{
+    margin-left: 60%;
+    transform: translateY(210px);
+}
+
+
+.banner{
+    width: 100%;
+    height: 800px;
+    transform: translateY(200px);
+}
+.banner h3{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.banner h4 span{
+    margin-left: 30px;
+    font-size: 26px;
+}
+.banner h4{
+    font-size: 26px;
+    text-align: center;
+}
+.pasti{
+    width: 90%;
+    margin: auto;
+    transform: translateY(15px);
+    border: 1px solid #d2d2d2;
+}
+.banner h4:hover{
+    color: gray;
+    cursor: pointer;
+}
+.torta{
+    width: 100%;
+    height: 30%;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.torta .aa{
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    transition: .25s;
+}
+.torta .aa:hover{
+    background: #d2d2d2;
+    border-bottom: 6px solid red;
+}
+.torta .ab{
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    transition: .25s;
+}
+.torta .ab:hover{
+    background: #d2d2d2;
+    border-bottom: 6px solid red;
+}
+
+
+/* .uchta{
+    width: 100%;
+    height: 30%;
+    background: #d2d2d2;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.uchta .bb{
+    width: 300px;
+    height: 100%;
+    margin-left: 30px;
+    margin: auto;
+    transition: .25s;
+}
+.uchta .bb:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+} */
+.besh{
+    width: 100%;
+    height: 220px;
+    background: #fff;
+}
+
+.nas{
+    width: 100%;
+    height: 200px;
+    margin-top: 171px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #d2d2d2;
+}
+
+.nas .ss{
+    width: 300px;
+    height: 130px;
+    border: 1px solid #fff;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.ss:hover{
+    background: crimson;
+    cursor: pointer;
+}
+
+.ss i{
+    margin-left: 130px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.ss p{
+    color: black;
+    margin-left: 75px;
+    transform: translateY(-50px);
+}
+
+.inner{
+    width: 100%;
+    height: 650px;
+    background: url("./nissan-heisman-house-v3.jpg") no-repeat center/cover;
+}
+.map{
+    font-size: 50px;
+    margin-left: 130px;
+}
+
+.ntn{
+    padding: 15px 20px;
+    background: #c3002f;
+    border: none;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+.ntn:hover{
+    cursor: pointer;
+    background: crimson;
+}
+.inner .text p{
+    transform: translateY(-30px);
+    color: black;
+}
+
+
+
+.img__333{
+    width: 100%;
+    height: 165%;
+    background: #d2d2d2;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img__333 .oppo{
+    width: 50%;
+    height: 400px;
+    margin-top: 10%;
+    border: 2px solid red;
+}
+.oppo h4{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: grey;
+}
+.oppo h4 span{
+    color: #c3002f;
+}
+.oppo h2{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 10px ;
+}
+.oppo p{
+    color: grey;
+    margin-left: 100px;
+    transform: translateY(-60px);
+}
+.oppo button{
+    margin-left: 100px;
+    padding: 14px 70px;
+    background: black;
+    color: #fff;
+    border: none;
+}
+.oppo button:hover{
+    background: gray;
+    color: #fff;
+}
+
+
+.img__333 .okpo{
+    width: 50%;
+    height: 400px;
+    margin-top: 10%;
+    background: url("./nissan-at-home.jpg") no-repeat center/cover;
+}
