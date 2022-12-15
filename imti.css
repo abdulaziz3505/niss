@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    min-height: 500vh;
-}
+
 .main{
     width: 100%;
     height: 650px;
@@ -75,6 +73,9 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
 .moshin .cars{
     width: 280px;
     height: 250px;
@@ -122,7 +123,7 @@ nav{
     color: #fff;
     margin-left: 81%;
     margin-right: 90px;
-    transform: translateY(-172px);
+    transform: translateY(-152px);
 }
 .btn:hover{
     background: crimson;
@@ -132,7 +133,7 @@ nav{
 .icons{
     width: 40px;
     height: 80px;
-    transform: translateY(-200px);
+    transform: translateY(-180px);
     display: flex;
     margin-left: 93%;
     cursor: pointer;
@@ -230,25 +231,7 @@ p{
 }
 
 
-/* .uchta{
-    width: 100%;
-    height: 30%;
-    background: #d2d2d2;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-.uchta .bb{
-    width: 300px;
-    height: 100%;
-    margin-left: 30px;
-    margin: auto;
-    transition: .25s;
-}
-.uchta .bb:hover{
-    background: #fff;
-    border-bottom: 6px solid red;
-} */
+
 .besh{
     width: 100%;
     height: 220px;
@@ -261,16 +244,14 @@ p{
     margin-top: 171px;
     display: flex;
     flex-wrap: wrap;
-    background: #d2d2d2;
 }
 
 .nas .ss{
     width: 300px;
     height: 130px;
-    border: 1px solid #fff;
+    border: 1px solid #ddd;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     margin-top: 35px;
 }
 .ss:hover{
@@ -288,6 +269,59 @@ p{
     margin-left: 75px;
     transform: translateY(-50px);
 }
+
+.tinner{
+    width: 100%;
+    height: 550px;
+    background: url("./nissan-heisman-house-v3.jpg") no-repeat center/cover;
+}
+.tinner span{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.tinner h2{
+    margin-left: 150px;
+}
+.tinner h5{
+    margin-left: 150px;
+    width: 38%;
+}
+.tinner button{
+    margin-left: 150px;
+    padding: 8px 40px;
+    background: crimson;
+    border: none;
+    color: #fff;
+}
+.tinner button:hover{
+    background: #c3002f;
+    cursor: pointer;
+}
+
+.tens{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mens{
+    width: 320px;
+    height: 300px;
+    background: url("./2022-rogue-steering-wheel_m_v2.jpg") no-repeat center/cover;
+}
+.mins{
+    width: 320px;
+    height: 300px;
+    background: url("./2023-nissan-ariya-electric-crossover-suv-d-1.jpg") no-repeat center/cover;
+}
+.mons{
+    width: 320px;
+    height: 300px;
+    background: url("./nissan-thrill-of-the-drive-year-end-sale-v2.jpg") no-repeat center/cover;
+}
+
+
 
 .inner{
     width: 100%;
@@ -317,54 +351,181 @@ p{
 
 
 
-.img__333{
+.banerlarmidi{
+    background: #fff;
+    height: 140%;
+}
+
+
+
+
+.banner6 {
     width: 100%;
-    height: 165%;
-    background: #d2d2d2;
-    margin-top: 20px;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    line-height: 2;
+}
+.img7{
+    width: 50px;
+}
+.imgtext2 img {
+    width: 550px;
+    height: 320px;
+}
+.imgtext2 button{
+    padding: 5px 30px;
+    background: #fff;
+    border: 1px solid black;
+    color: black;
+}
+
+.imgt .img8 {
+    width: 550px;
+    height: 320px;
+}
+
+.imgt button{
+    padding: 5px 30px;
+    background: #fff;
+    border: 1px solid black;
+    color: black;
+}
+
+.discover{
+    width: 100%;
+    height: 500px;
+}
+.discover h1{
+    margin-left: 70px;
+}
+.discover .top{
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+}
+.carslar{
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.img__333 .oppo{
-    width: 50%;
-    height: 400px;
-    margin-top: 10%;
-    border: 2px solid red;
+.carslar .veather{
+    width: 350px;
+    height: 200px;
+    background: url("./nissan-sustainability.jpg") no-repeat center/cover;
 }
-.oppo h4{
-    margin-left: 100px;
+.carslar .viather{
+    width: 350px;
+    height: 200px;
+    background: url("./2023-nissan-rogue-m.jpg") no-repeat center/cover;
+}
+.carslar .voather{
+    width: 350px;
+    height: 200px;
+    background: url("./3_steps_d.webp") no-repeat center/cover;
+}
+.veather h4,
+span{
+    margin-top: 200px;
+    font-size: 15px;
+}
+.veather button{
+    padding: 5px 15px;
+}
+.viather button{
+    padding: 5px 15px;
+}
+.voather button{
+    padding: 5px 15px;
+}
+.viather h4,
+span{
+    margin-top: 200px;
+    font-size: 15px;
+}
+.voather h4,
+span{
+    margin-top: 200px;
+    font-size: 15px;
+}
+
+
+.nussan{
+    width: 100%;
+    height: 150px;
+    background: #ddd;
+}
+.nussan h2{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.nussan .son{
     margin-top: 30px;
-    color: grey;
-}
-.oppo h4 span{
-    color: #c3002f;
-}
-.oppo h2{
-    width: 50%;
-    margin-left: 100px;
-    margin-top: 10px ;
-}
-.oppo p{
-    color: grey;
-    margin-left: 100px;
-    transform: translateY(-60px);
-}
-.oppo button{
-    margin-left: 100px;
-    padding: 14px 70px;
-    background: black;
-    color: #fff;
+    margin-left: 550px;
+    padding: 10px 80px;
+    background: crimson;
     border: none;
-}
-.oppo button:hover{
-    background: gray;
     color: #fff;
 }
 
 
-.img__333 .okpo{
-    width: 50%;
-    height: 400px;
-    margin-top: 10%;
-    background: url("./nissan-at-home.jpg") no-repeat center/cover;
+.footer{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    background: black;
+}
+.footer .images{
+    width: 230px;
+    height: 600px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.images h5{
+    color: #ddd;
+    margin-top: 10px;
+}
+.footer .imoges{
+    width: 230px;
+    height: 600px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.imoges h5{
+    color: #ddd;
+    margin-top: 10px;
+}
+.footer .imiges{
+    width: 230px;
+    height: 600px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.imiges h5{
+    color: #ddd;
+    margin-top: 10px;
+}
+.footer .imeges{
+    width: 230px;
+    height: 600px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.imeges h5{
+    color: #ddd;
+    margin-top: 10px;
 }

@@ -35,9 +35,7 @@
         display: block;
         transform: translateY(-80px);
     }
-    .nas{
-        grid-template-columns: 2;
-    }
+    
     nav .btn{
         display: none;
     }
@@ -50,9 +48,7 @@
     .uchta .bb{
         transform: translateY(200px);
     }
-    .nas{
-        margin-top: 200px;
-    }
+   
 }
 @media screen and (max-width: 694px){
     .banner .uchta{
@@ -64,13 +60,85 @@
 
 
 @media screen and (max-width: 420px){
-    .img__333{
-        grid-template-columns: 1, 1;
-    }
+    
     .banner .uchta{
         padding-top: 100px;
     }
-    .nas .ss{
-        margin-top: 200%;
+    .nas{
+        margin-top: 370%;
+    }
+    .unner img{
+        display: none;
+    }
+    .inner{
+        margin-top: 160%;
+    }
+    .inner p{
+        font-size: 20px;
+        margin-left: 130px;
+    }
+    .inner h1{
+        font-size: 22px;
+    }
+    .img__333 .okpo{
+        grid-template-columns: repeat(2, 1);
+    }
+    
+}
+
+@media screen and (max-width: 412px){
+    .banerlarmidi{
+        margin-top: 620px;
+    }
+    .banerlarmidi .imgtext2 h2, h4, h6, 
+    button{
+        margin-left: 100px;
+    }
+    .banerlarmidi .imgt h2, h4, h6, 
+    button{
+        margin-left: 100px;
+    }
+
+    .banerlarmidi .img7{
+        width: 100%;
+    }
+    .banerlarmidi .img8{
+        width: 100%;
+        margin-top: 8px;
+    }
+    .imgt h2{
+        font-size: 25px;
+    }
+    .carslar .voather{
+        margin-top: 120px;
+    }
+    .carslar .viather{
+        margin-top: 120px;
+    }
+    .nussan{
+        margin-top: 350%;
+    }
+    .nussan .son{
+        display: none;
+    }
+    .footer{
+        height: 300%;
+        background: black;
+    }
+    .images{
+        transform: translateY(-5px);
+    }
+    .imoges{
+        transform: translateY(-50px);
+    }
+    .imiges{
+        transform: translateY(-120px);
+    }
+    .imeges{
+        transform: translateY(-200px);
+    }
+    
+    .tinner{
+        margin-top: 500px;
     }
 }
